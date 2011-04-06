@@ -1,0 +1,117 @@
+<!-- COMMON -->
+<!ENTITY common.product.name "Multiproxy Switch">
+<!ENTITY common.product.homepage "Honlap">
+
+<!ENTITY common.apply.label "Alkalmaz">
+<!ENTITY common.apply.tip "Kiválasztott proxy használata">
+<!ENTITY common.edit.label "Szerkeszt">
+<!ENTITY common.edit.tip "Kiválasztott proxy szerkesztése">
+<!ENTITY common.remove.label "Eltávolít">
+<!ENTITY common.remove.tip "Kiválasztott proxy eltávolítása">
+<!ENTITY common.add.label "Hozzáad">
+<!ENTITY common.add.tip "Új proxy hozzáadása">
+
+<!ENTITY common.next "Következő">
+<!ENTITY common.save "Ment">
+<!ENTITY common.cancel "Mégsem">
+
+<!ENTITY common.none "Nincs">
+
+<!ENTITY common.options "Opciók">
+<!ENTITY common.preferences.label "Beállítások">
+<!ENTITY common.preferences.key "B">
+<!ENTITY common.updates.label "Frissítés keresése">
+<!ENTITY common.updates.key "F">
+<!ENTITY common.about.label "Multiproxy Switch névjegye">
+<!ENTITY common.about.key "N">
+<!ENTITY common.manage.label "Proxyk menedzselése">
+<!ENTITY common.manage.key "M">
+
+<!-- TOOLBAR -->
+<!ENTITY toolbar.name.label "Multiproxy Switch eszköztár">
+<!ENTITY toolbar.proxy.label "Proxy: " >
+<!ENTITY toolbar.name.key "E">
+<!ENTITY toolbar.status "Állapot:">
+<!ENTITY toolbar.using.none "Nincs proxy használat">
+
+<!-- TOOLBAR ELEMENT -->
+<!ENTITY toolelement.tip "Proxy választása">
+
+<!-- CONTEXT MENU -->
+<!ENTITY context.label "Multiproxy Switch">
+<!ENTITY context.key "M">
+<!ENTITY context.proxies.label "Proxyk">
+<!ENTITY context.proxies.key "P">
+<!ENTITY context.options.label "Opciók...">
+<!ENTITY context.options.key "O">
+
+<!-- DIALOGS -->
+
+	<!-- ADD/EDIT PROXY -->
+	<!ENTITY add.sharing.proxy.label "Use this proxy server for all protocols">
+	<!ENTITY add.title "Proxy info">
+	<!ENTITY add.proxyLabel "Proxy címke:">
+	<!ENTITY add.option.manual "Kézi proxy beállítás">
+	<!ENTITY add.option.auto "Automatikus proxy beállítás URL">
+	<!ENTITY add.port.label "Port">
+	<!ENTITY add.http.proxy.label "HTTP proxy">
+	<!ENTITY add.http.proxy.key "H">
+	<!ENTITY add.ssl.proxy.label "SSL proxy">
+	<!ENTITY add.ssl.proxy.key "S">
+	<!ENTITY add.ftp.proxy.label "FTP proxy">
+	<!ENTITY add.ftp.proxy.key "F">
+	<!ENTITY add.gopher.proxy.label "Gopher proxy">
+	<!ENTITY add.gopher.proxy.key "G">
+	<!ENTITY add.socks.proxy.label "SOCKS proxy">
+	<!ENTITY add.socks.proxy.key "C">
+	<!ENTITY add.socks.option.v4 "SOCKS v4">
+	<!ENTITY add.socks.option.v5 "SOCKS v5">
+	<!ENTITY add.none.label "Nincs proxy ezekre">
+	<!ENTITY add.none.example "Például: local.website.com, .myschool.edu">
+	<!ENTITY add.none.key "N">
+	
+	<!-- ADD PROXY - STEP 1 (GET TYPE) -->
+	<!ENTITY add.type.title "Proxy típus választása">
+	<!ENTITY add.type.describe "Válassz egy proxy beállítás típust:">
+	<!ENTITY add.type.standard "Standard">
+	<!ENTITY add.type.standard.description "Legáltalánosabb proxy típusokhoz">
+	<!ENTITY add.type.anonymous "Anonim">
+	<!ENTITY add.type.anonymous.description "Anonim szörfölésre többszörös proxyt használóknak">
+		
+	<!-- ABOUT -->
+	<!ENTITY about.title "Multiproxy Switch névjegye">
+	<!ENTITY about.version "verzió">
+	
+	<!-- PREFERENCES -->
+	<!ENTITY prefs.title "Options" >
+	<!ENTITY prefs.general "Általános">
+	<!ENTITY prefs.general.notify "Értesít az elérhető frissítésről">
+	<!ENTITY prefs.general.context "Helyi menüben megjelenik">
+	<!ENTITY prefs.general.toolbar "Eszköztár mutatása">
+	<!ENTITY prefs.general.statusbar "Állapotsoron megjelenik">
+	<!ENTITY prefs.switch "Amikor proxyt váltok">
+	<!ENTITY prefs.switch.cookies "Sütik törlése">
+	<!ENTITY prefs.switch.refresh "Jelenlegi oldal újratöltése">
+	
+	<!-- UPDATE -->
+	<!ENTITY update.title "Multiproxy Switch frissítése">
+	<!ENTITY update.message "A Multiproxy Switch újabb verziója elérhető. Szeretnéd most telepíteni?">
+	<!ENTITY update.dontshow "Ne mutasd újra ezt az ablakot">
+	
+	<!-- ADD ANONYMOUS PROXY -->
+	<!ENTITY add.anon.title "Anonim proxyk hozzáadása" >
+	<!ENTITY add.anon.imort.caption "Importálás innen" >
+	<!ENTITY add.anon.import.describe "Egy-proxy-egy-sor típusú fájl importálása." >
+	<!ENTITY add.anon.import.file "Fájl" >
+	<!ENTITY add.anon.import.file.browse "Böngészés" >
+	<!ENTITY add.anon.import.file.load "Betöltés" >
+	<!ENTITY add.anon.import.url "Url" >
+	<!ENTITY add.anon.import.url.load "Betölt" >
+	<!ENTITY add.anon.import.url.auto "Automatikusan importálja naponta ezt az url-t" >
+	<!ENTITY add.anon.import.url.auto.note "ez eltávolít minden kézileg hozzáadott elemet" >
+	<!ENTITY add.anon.single.add "Hozzáad" >
+	<!ENTITY add.anon.single.add.example "Például: 12.9.1.242:80" >
+	<!ENTITY add.anon.increment.title "Válts proxyt minden:" >
+	<!ENTITY add.anon.increment.seconds "másodpercben" >
+	<!ENTITY add.anon.increment.title "Anonim proxyk hozzáadása" >
+	<!ENTITY add.anon.title "Anonim proxyk hozzáadása" >

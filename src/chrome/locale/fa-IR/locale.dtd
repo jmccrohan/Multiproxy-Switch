@@ -1,0 +1,118 @@
+﻿<!-- COMMON -->
+<!ENTITY common.product.name "Multiproxy Switch">
+<!ENTITY common.product.homepage "وب سايت">
+
+<!ENTITY common.apply.label "اعمال">
+<!ENTITY common.apply.tip "پراکسي منتخب را اعمال کن">
+<!ENTITY common.edit.label "ويرايش">
+<!ENTITY common.edit.tip "پراکسي منتخب را ويرايش کن">
+<!ENTITY common.remove.label "حذف">
+<!ENTITY common.remove.tip "پراکسي منتخب را حذف کن">
+<!ENTITY common.add.label "اضافه">
+<!ENTITY common.add.tip "پراکسي جديد اضافه کن">
+
+<!ENTITY common.next "بعدي">
+<!ENTITY common.save "ضبط">
+<!ENTITY common.cancel "لغو">
+
+<!ENTITY common.none "هيچکدام">
+<!ENTITY common.gpass "جيپَس">
+
+<!ENTITY common.options "انتخابات">
+<!ENTITY common.preferences.label "ترجيحات">
+<!ENTITY common.preferences.key "پ">
+<!ENTITY common.updates.label "چک کن آپگريدي هاست">
+<!ENTITY common.updates.key "و">
+<!ENTITY common.about.label "در مورد جيپراکسي">
+<!ENTITY common.about.key "الف">
+<!ENTITY common.manage.label "پراکسي ها را ترتيب بده">
+<!ENTITY common.manage.key "م">
+
+<!-- TOOLBAR -->
+<!ENTITY toolbar.name.label "تولبار جيپراکسي">
+<!ENTITY toolbar.proxy.label "پراکسي: " >
+<!ENTITY toolbar.name.key "س">
+<!ENTITY toolbar.status "وضعيت:">
+<!ENTITY toolbar.using.none "استفاده از هيچ جيپراکسي">
+
+<!-- TOOLBAR ELEMENT -->
+<!ENTITY toolelement.tip "پراکسي منتخب">
+
+<!-- CONTEXT MENU -->
+<!ENTITY context.label "ترتيب دهنده ي پراکسي جيپَس (جيپراکسي) ">
+<!ENTITY context.key "پ">
+<!ENTITY context.proxies.label "پراکسي ها">
+<!ENTITY context.proxies.key "P">
+<!ENTITY context.options.label "انتخابات...">
+<!ENTITY context.options.key "ي">
+
+<!-- DIALOGS -->
+
+<!-- ADD/EDIT PROXY -->
+<!ENTITY add.sharing.proxy.label "Use this proxy server for all protocols">
+<!ENTITY add.title "اطلاعات پراکسي">
+<!ENTITY add.proxyLabel "نام پراکسي:">
+<!ENTITY add.option.manual "تنظيمات پراکسي دستي">
+<!ENTITY add.option.auto "يو آر ال تنظيمات پراکسي خودکار">
+<!ENTITY add.port.label "پُرت">
+<!ENTITY add.http.proxy.label "پراکسي اچ تي تي پي">
+<!ENTITY add.http.proxy.key "ح">
+<!ENTITY add.ssl.proxy.label "پراکسي اس اس ال">
+<!ENTITY add.ssl.proxy.key "س">
+<!ENTITY add.ftp.proxy.label "پراکسي اف تي پي">
+<!ENTITY add.ftp.proxy.key "ف">
+<!ENTITY add.gopher.proxy.label "پراکسي گروفِر">
+<!ENTITY add.gopher.proxy.key "ج">
+<!ENTITY add.socks.proxy.label "پراکسي ساکس">
+<!ENTITY add.socks.proxy.key "ث">
+<!ENTITY add.socks.option.v4 "4ساکس وي ">
+<!ENTITY add.socks.option.v5 "ساکس وي5">
+<!ENTITY add.none.label "هيچ پراکسي نيست براي">
+<!ENTITY add.none.example "مثال: local.website.com, myschool.edu">
+<!ENTITY add.none.key "ن">
+
+<!-- ADD PROXY - STEP 1 (GET TYPE) -->
+<!ENTITY add.type.title "نوع پراکسي را انتخاب کنيد">
+<!ENTITY add.type.describe "نوع نتضيمات پراکسي را انتخاب کنيد:">
+<!ENTITY add.type.standard "استاندارد(جيپَس)">
+<!ENTITY add.type.standard.description "معمول ترين پراکسي. جيپَس اين نوع را استفاده مي کند. ">
+<!ENTITY add.type.anonymous "بي نام و نشان">
+<!ENTITY add.type.anonymous.description "براي آنهايي که از چند پراکسي براي اينترنت گردي بي نام و نشان استفاده مي کنند">
+	
+<!-- ABOUT -->
+<!ENTITY about.title "در مورد جيپراکسي">
+<!ENTITY about.version "نسخه">
+
+<!-- PREFERENCES -->
+<!ENTITY prefs.title "Options" >
+<!ENTITY prefs.general "کلي">
+<!ENTITY prefs.general.notify "اگر آپگِريدي بود مار با خبر کن">
+<!ENTITY prefs.general.context "فهرست محتويات را نشان بده">
+<!ENTITY prefs.general.toolbar "تولبار را نشان بده">
+<!ENTITY prefs.general.statusbar "در اِستَتوس بار نشان بده" >
+<!ENTITY prefs.switch "وقتي پراکسي عوض کردم">
+<!ENTITY prefs.switch.cookies "کوکي هايم را پاک کن">
+<!ENTITY prefs.switch.refresh "صفحه ي کنوني را دوباره باز کن">
+
+<!-- UPDATE -->
+<!ENTITY update.title "آپديت برا جيپراکسي">
+<!ENTITY update.message "يک آپديت جديد برا جيپراکسي آماده است. مي خواهيد اکنون آنرا نصب کنيد؟">
+<!ENTITY update.dontshow "اين پياپ را ديگر نشان ندي">
+
+<!-- ADD ANONYMOUS PROXY -->
+<!ENTITY add.anon.title "پراکسي هاي بي نام و نشان اضافه کن" >
+<!ENTITY add.anon.imort.caption "وارد کن از" >
+<!ENTITY add.anon.import.describe "فايل يک پراکسي در هر خط وارد کن" >
+<!ENTITY add.anon.import.file "فايل" >
+<!ENTITY add.anon.import.file.browse "گشتن" >
+<!ENTITY add.anon.import.file.load "باز کردن" >
+<!ENTITY add.anon.import.url "يو آر ال" >
+<!ENTITY add.anon.import.url.load "باز کردن" >
+<!ENTITY add.anon.import.url.auto "روزانه به طور خودکار از اين يو آر ال وارد کن" >
+<!ENTITY add.anon.import.url.auto.note "اين کار همه ي داده هايي که دستي وارد شده ان را پاک مي کند" >
+<!ENTITY add.anon.single.add "اضافه کن" >
+<!ENTITY add.anon.single.add.example "Example: 12.9.1.242:80" >
+<!ENTITY add.anon.increment.title "Change proxy every:" >
+<!ENTITY add.anon.increment.seconds "ثانيه" >
+<!ENTITY add.anon.increment.title "پراکسي هاي بي نام و نشان اضافه کن" >
+<!ENTITY add.anon.title "پراکسي هاي بي نام و نشان اضافه کن" >

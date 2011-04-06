@@ -1,0 +1,117 @@
+﻿<!-- COMMON -->
+<!ENTITY common.product.name "Multiproxy Switch" >
+<!ENTITY common.product.homepage "网站" >
+
+<!ENTITY common.apply.label "启用" >
+<!ENTITY common.apply.tip "启用所选的代理服务器" >
+<!ENTITY common.edit.label "编辑" >
+<!ENTITY common.edit.tip "编辑所选的代理服务器" >
+<!ENTITY common.remove.label "删除">
+<!ENTITY common.remove.tip "删除所选的代理服务器" >
+<!ENTITY common.add.label "添加" >
+<!ENTITY common.add.tip "添加代理服务器" >
+
+<!ENTITY common.next "下一步" >
+<!ENTITY common.save "保存" >
+<!ENTITY common.cancel "取消" >
+
+<!ENTITY common.none "无代理" >
+
+<!ENTITY common.options "设置" >
+<!ENTITY common.preferences.label "选项" >
+<!ENTITY common.preferences.key "O" >
+<!ENTITY common.updates.label "检查升级" >
+<!ENTITY common.updates.key "U" >
+<!ENTITY common.about.label "关于" >
+<!ENTITY common.about.key "A" >
+<!ENTITY common.manage.label "管理" >
+<!ENTITY common.manage.key "M" >
+
+<!-- TOOLBAR -->
+<!ENTITY toolbar.proxy.label "代理服务器：" >
+<!ENTITY toolbar.name.label "代理服务器" >
+<!ENTITY toolbar.name.key "S" >
+<!ENTITY toolbar.status "状态" >
+<!ENTITY toolbar.using.none "未使用代理服务器" >
+
+<!-- TOOLBAR ELEMENT -->
+<!ENTITY toolelement.tip "选择代理服务器" >
+
+<!-- CONTEXT MENU -->
+<!ENTITY context.label "Multiproxy Switch" >
+<!ENTITY context.key "M" >
+<!ENTITY context.proxies.label "代理服务器" >
+<!ENTITY context.proxies.key "P" >
+<!ENTITY context.options.label "设置..." >
+<!ENTITY context.options.key "O" >
+
+<!-- DIALOGS -->
+
+<!-- ADD/EDIT PROXY -->
+<!ENTITY add.title "配置代理服务器" >
+<!ENTITY add.proxyLabel "代理服务器标签：" >
+<!ENTITY add.option.manual "手动配置代理" >
+<!ENTITY add.option.auto "自动代理配置 URL" >
+<!ENTITY add.port.label "端口" >
+<!ENTITY add.http.proxy.label "HTTP代理" >
+<!ENTITY add.http.proxy.key "H" >
+<!ENTITY add.ssl.proxy.label "SSL代理" >
+<!ENTITY add.ssl.proxy.key "S" >
+<!ENTITY add.ftp.proxy.label "FTP代理" >
+<!ENTITY add.ftp.proxy.key "F" >
+<!ENTITY add.gopher.proxy.label "Gopher代理" >
+<!ENTITY add.gopher.proxy.key "G" >
+<!ENTITY add.socks.proxy.label "SOCKS代理" >
+<!ENTITY add.socks.proxy.key "C" >
+<!ENTITY add.socks.option.v4 "SOCKS 4" >
+<!ENTITY add.socks.option.v5 "SOCKS 5" >
+<!ENTITY add.none.label "不使用代理" >
+<!ENTITY add.none.example "例如: local.website.com, .myschool.edu" >
+<!ENTITY add.none.key "N" >
+
+<!-- ADD PROXY - STEP 1 (GET TYPE) -->
+<!ENTITY add.type.title "选择代理服务器种类" >
+<!ENTITY add.type.describe "选择代理服务器设置方法：" >
+<!ENTITY add.type.standard "标准" >
+<!ENTITY add.type.standard.description "最常用的。Multiproxy Switch使用标准设置。" >
+<!ENTITY add.type.anonymous "多级代理" >
+<!ENTITY add.type.anonymous.description "利用多级代理增加隐蔽性。" >
+	
+<!-- ABOUT -->
+<!ENTITY about.title "关于" >
+<!ENTITY about.version "版本" >
+
+<!-- PREFERENCES -->
+<!ENTITY prefs.title "选项" >
+<!ENTITY prefs.general "一般" >
+<!ENTITY prefs.general.notify "自动检查升级" >
+<!ENTITY prefs.general.context "显示菜单" >
+<!ENTITY prefs.general.toolbar "显示工具栏" >
+<!ENTITY prefs.general.statusbar  "显示在状态栏" >
+<!ENTITY prefs.switch "当我切换代理时" >
+<!ENTITY prefs.switch.cookies "删除浏览器Cookie" >
+<!ENTITY prefs.switch.refresh "重新载入网页" >
+
+<!-- UPDATE -->
+<!ENTITY update.title "升级" >
+<!ENTITY update.message "Multiproxy Switch升级了，下载安装吗？" >
+<!ENTITY update.dontshow "不要再提醒我。" >
+
+<!-- ADD ANONYMOUS PROXY -->
+<!ENTITY add.sharing.proxy.label "为所有协议使用相同代理">
+<!ENTITY add.anon.title "添加多级代理" >
+<!ENTITY add.anon.imort.caption "导入" >
+<!ENTITY add.anon.import.describe "从一个每行含一个代理服务器的文件中导入" >
+<!ENTITY add.anon.import.file "文件" >
+<!ENTITY add.anon.import.file.browse "浏览" >
+<!ENTITY add.anon.import.file.load "装载" >
+<!ENTITY add.anon.import.url "网址" >
+<!ENTITY add.anon.import.url.load "装载" >
+<!ENTITY add.anon.import.url.auto "自动从这个网址安装" >
+<!ENTITY add.anon.import.url.auto.note "这将删除手动输入的代理服务器设置" >
+<!ENTITY add.anon.single.add "添加" >
+<!ENTITY add.anon.single.add.example "示例: 127.0.0.1:8081" >
+<!ENTITY add.anon.increment.title "每隔如此秒时间更新一次代理服务器：" >
+<!ENTITY add.anon.increment.seconds "" >
+<!ENTITY add.anon.increment.title "添加多级代理" >
+<!ENTITY add.anon.title "添加多级代理" >

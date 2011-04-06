@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://mproxy/locale/locale.dtd">
+
+<dialog buttons="accept" 
+		id="mproxyCookieDialog"
+		ondialogaccept="mproxy_managerClose(); mproxy_openerFocus(); return true;"
+		ondialogcancel="mproxy_openerFocus(); return true;"
+		onload="mproxy_initProxy();"
+		title="&common.manage.label;" persist="height, width"
+		xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	
+	<script type="application/x-javascript" src="chrome://mproxy/content/globals.js"></script>
+	<script type="application/x-javascript" src="chrome://mproxy/content/datasource.js"></script>
+	<script type="application/x-javascript" src="chrome://mproxy/content/proxy.js"></script>
+	<script>
+	<![CDATA[
+		function mproxy_managerClose(){
+			try{
+				var oPrefs	= Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefBranch);
+					oPrefs.setIntPref("mproxy.proxy.rdf.lastupdate", (new Date()).getTime());
+			} catch(e){ alert(e); }
+		}
+	]]>
+	</script>
+			
+	<hbox align="top" flex="1" style="overflow: auto;">
+		<listbox id="manage-proxy-list" flex="2" rows="10"></listbox>
+		<vbox>
+			<button id="new-button" label=" &common.add.label;" oncommand="mproxy_editProxyDialog(true)" image="chrome://mproxy/content/icons/new.png" />
+			<button id="edit-button" label=" &common.edit.label;" oncommand="mproxy_editProxyDialog(false)" image="chrome://mproxy/content/icons/pencil.png" />
+			<button id="remove-button" label=" &common.remove.label;" oncommand="mproxy_removeProxy(false)" image="chrome://mproxy/content/icons/cross.png" />
+		</vbox>
+	</hbox>
+</dialog>

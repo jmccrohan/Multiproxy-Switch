@@ -1,0 +1,20 @@
+content	mproxy	chrome/content/
+
+
+overlay	chrome://browser/content/browser.xul chrome://mproxy/content/proxy.xul
+overlay	chrome://navigator/content/navigator.xul chrome://mproxy/content/proxy_moz.xul
+overlay	chrome://messenger/content/mailWindowOverlay.xul chrome://mproxy/content/proxy_thunder.xul
+overlay	chrome://messenger/content/messengercompose/messengercompose.xul chrome://mproxy/content/proxy_thunder.xul
+
+locale mproxy en-US chrome/locale/en-US/
+locale mproxy cs-CZ chrome/locale/cs-CZ/
+locale mproxy de-DE chrome/locale/de-DE/
+locale mproxy es-ES chrome/locale/es-ES/
+locale mproxy fa-IR chrome/locale/fa-IR/
+locale mproxy fr-FR chrome/locale/fr-FR/
+locale mproxy hu-HU chrome/locale/hu-HU/
+locale mproxy is-IS chrome/locale/is-IS/
+locale mproxy it-IT chrome/locale/it-IT/
+locale mproxy ja-JP chrome/locale/ja-JP/
+locale mproxy zh-CN chrome/locale/zh-CN/
+locale mproxy zh-TW chrome/locale/zh-TW/

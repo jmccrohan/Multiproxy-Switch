@@ -1,0 +1,117 @@
+﻿<!-- COMMON -->
+<!ENTITY common.product.name "Multiproxy Switch">
+<!ENTITY common.product.homepage "Página Web">
+
+<!ENTITY common.apply.label "Aplicar">
+<!ENTITY common.apply.tip "Aplicar proxy seleccionado">
+<!ENTITY common.edit.label "Editar">
+<!ENTITY common.edit.tip "Editar proxy seleccionado">
+<!ENTITY common.remove.label "Remover">
+<!ENTITY common.remove.tip "Remover proxy seleccionado">
+<!ENTITY common.add.label "Agregar">
+<!ENTITY common.add.tip "Agregar nuevo proxy">
+
+<!ENTITY common.next "Siguiente">
+<!ENTITY common.save "Salvar">
+<!ENTITY common.cancel "Cancelar">
+
+<!ENTITY common.none "Ninguno">
+
+<!ENTITY common.options "Opciones">
+<!ENTITY common.preferences.label "Preferencias">
+<!ENTITY common.preferences.key "P">
+<!ENTITY common.updates.label "Buscar actualizaciones">
+<!ENTITY common.updates.key "U">
+<!ENTITY common.about.label "Acerca de...">
+<!ENTITY common.about.key "A">
+<!ENTITY common.manage.label "Administrar proxies">
+<!ENTITY common.manage.key "M">
+
+<!-- TOOLBAR -->
+<!ENTITY toolbar.name.label "Multiproxy Switch Toolbar">
+<!ENTITY toolbar.proxy.label "Proxy: " >
+<!ENTITY toolbar.name.key "S">
+<!ENTITY toolbar.status "Estado:">
+<!ENTITY toolbar.using.none "No usando Proxy">
+
+<!-- TOOLBAR ELEMENT -->
+<!ENTITY toolelement.tip "Proxy seleccionado">
+
+<!-- CONTEXT MENU -->
+<!ENTITY context.label "Multiproxy Switch">
+<!ENTITY context.key "M">
+<!ENTITY context.proxies.label "Proxies">
+<!ENTITY context.proxies.key "P">
+<!ENTITY context.options.label "Opciones...">
+<!ENTITY context.options.key "O">
+
+<!-- DIALOGS -->
+
+<!-- ADD/EDIT PROXY -->
+<!ENTITY add.sharing.proxy.label "Usar el mismo proxy para todo">
+<!ENTITY add.title "Información del proxy">
+<!ENTITY add.proxyLabel "Etiqueta del proxy:">
+<!ENTITY add.option.manual "Configuración manual del proxy">
+<!ENTITY add.option.auto "URL para la configuración automática del proxy">
+<!ENTITY add.port.label "Puerto:">
+<!ENTITY add.http.proxy.label "Proxy HTTP:">
+<!ENTITY add.http.proxy.key "H">
+<!ENTITY add.ssl.proxy.label "Proxy SSL:">
+<!ENTITY add.ssl.proxy.key "S">
+<!ENTITY add.ftp.proxy.label "Proxy FTP:">
+<!ENTITY add.ftp.proxy.key "F">
+<!ENTITY add.gopher.proxy.label "Proxy gopher:">
+<!ENTITY add.gopher.proxy.key "G">
+<!ENTITY add.socks.proxy.label "Servidor SOCKS:">
+<!ENTITY add.socks.proxy.key "C">
+<!ENTITY add.socks.option.v4 "SOCKS v4">
+<!ENTITY add.socks.option.v5 "SOCKS v5">
+<!ENTITY add.none.label "No usar proxy para:">
+<!ENTITY add.none.example "Ejemplo: local.paginaweb.com, .miescuela.edu">
+<!ENTITY add.none.key "N">
+
+<!-- ADD PROXY - STEP 1 (GET TYPE) -->
+<!ENTITY add.type.title "Selección del tipo de proxy">
+<!ENTITY add.type.describe "Seleccione un tipo de configuración para el proxy:">
+<!ENTITY add.type.standard "Estándar">
+<!ENTITY add.type.standard.description "Tipo de proxy más común. Multiproxy Switch usa este tipo.">
+<!ENTITY add.type.anonymous "Anónimo">
+<!ENTITY add.type.anonymous.description "Para personas que usan múltiples proxies para navegar anónimamente">
+	
+<!-- ABOUT -->
+<!ENTITY about.title "Acerca">
+<!ENTITY about.version "Versión">
+
+<!-- PREFERENCES -->
+<!ENTITY prefs.title "Opciones" >
+<!ENTITY prefs.general "General">
+<!ENTITY prefs.general.notify "Avisarme si hay actualizaciones disponibles">
+<!ENTITY prefs.general.context "Mostrar menú contextual">
+<!ENTITY prefs.general.toolbar "Mostrar barra de herramientas">
+<!ENTITY prefs.general.statusbar "Mostrar en barra de estado" >
+<!ENTITY prefs.switch "Cuando cambie de proxy">
+<!ENTITY prefs.switch.cookies "Eliminar cookies">
+<!ENTITY prefs.switch.refresh "Recargar la página actual">
+
+<!-- UPDATE -->
+<!ENTITY update.title "Actualización para Multi-proxy Switch">
+<!ENTITY update.message "Una actulización para Multiproxy Switch está disponible. Desea instalarla ahora?">
+<!ENTITY update.dontshow "Don't show this dialog again">
+
+<!-- ADD ANONYMOUS PROXY -->
+<!ENTITY add.anon.title "Agregar proxies anónimos" >
+<!ENTITY add.anon.imort.caption "Importar desde" >
+<!ENTITY add.anon.import.describe "Importar un archivo que contiene un proxy por línea." >
+<!ENTITY add.anon.import.file "Archivo" >
+<!ENTITY add.anon.import.file.browse "Explorar" >
+<!ENTITY add.anon.import.file.load "Cargar" >
+<!ENTITY add.anon.import.url "URL" >
+<!ENTITY add.anon.import.url.load "Cargar" >
+<!ENTITY add.anon.import.url.auto "Importar automáticamente desde este URL diariamente" >
+<!ENTITY add.anon.import.url.auto.note "esto eliminará cualquier ingreso manual de datos" >
+<!ENTITY add.anon.single.add "Agregar" >
+<!ENTITY add.anon.single.add.example "Ejemplo: 12.9.1.242:80" >
+<!ENTITY add.anon.increment.title "Cambiar de proxy cada:" >
+<!ENTITY add.anon.increment.seconds "segundo(s)" >
+<!ENTITY add.anon.increment.title "Agregar proxies anónimos" >
+<!ENTITY add.anon.title "Agregar proxies anónimos" >

@@ -1,0 +1,117 @@
+<!-- COMMON -->
+<!ENTITY common.product.name "Multiproxy Switch">
+<!ENTITY common.product.homepage "Webサイト">
+
+<!ENTITY common.apply.label "適用">
+<!ENTITY common.apply.tip "選択中のプロキシを適用する">
+<!ENTITY common.edit.label "編集">
+<!ENTITY common.edit.tip "選択中のプロキシを編集する">
+<!ENTITY common.remove.label "削除">
+<!ENTITY common.remove.tip "選択中のプロキシを削除する">
+<!ENTITY common.add.label "追加">
+<!ENTITY common.add.tip "新しいプロキシを追加する">
+
+<!ENTITY common.next "次へ">
+<!ENTITY common.save "保存">
+<!ENTITY common.cancel "Cancel">
+
+<!ENTITY common.none "なし">
+
+<!ENTITY common.options "オプション">
+<!ENTITY common.preferences.label "設定">
+<!ENTITY common.preferences.key "P">
+<!ENTITY common.updates.label "アップデートを確認">
+<!ENTITY common.updates.key "U">
+<!ENTITY common.about.label "について">
+<!ENTITY common.about.key "A">
+<!ENTITY common.manage.label "プロキシ管理">
+<!ENTITY common.manage.key "M">
+
+<!-- TOOLBAR -->
+<!ENTITY toolbar.name.label "Multiproxy Switch ツールバー">
+<!ENTITY toolbar.proxy.label "Proxy: " >
+<!ENTITY toolbar.name.key "S">
+<!ENTITY toolbar.status "状態:">
+<!ENTITY toolbar.using.none "直接接続">
+
+<!-- TOOLBAR ELEMENT -->
+<!ENTITY toolelement.tip "プロキシを選択">
+
+<!-- CONTEXT MENU -->
+<!ENTITY context.label "Multiproxy Switch">
+<!ENTITY context.key "P">
+<!ENTITY context.proxies.label "プロキシ">
+<!ENTITY context.proxies.key "P">
+<!ENTITY context.options.label "オプション...">
+<!ENTITY context.options.key "O">
+
+<!-- DIALOGS -->
+
+	<!-- ADD/EDIT PROXY -->
+	<!ENTITY add.sharing.proxy.label "Use this proxy server for all protocols">
+	<!ENTITY add.title "プロキシ情報">
+	<!ENTITY add.proxyLabel "プロキシ名:">
+	<!ENTITY add.option.manual "手動プロキシ設定">
+	<!ENTITY add.option.auto "自動プロキシ設定URL">
+	<!ENTITY add.port.label "ポート">
+	<!ENTITY add.http.proxy.label "HTTPプロキシ">
+	<!ENTITY add.http.proxy.key "H">
+	<!ENTITY add.ssl.proxy.label "SSLプロキシ">
+	<!ENTITY add.ssl.proxy.key "S">
+	<!ENTITY add.ftp.proxy.label "FTPプロキシ">
+	<!ENTITY add.ftp.proxy.key "F">
+	<!ENTITY add.gopher.proxy.label "Gopherプロキシ">
+	<!ENTITY add.gopher.proxy.key "G">
+	<!ENTITY add.socks.proxy.label "SOCKSプロキシ">
+	<!ENTITY add.socks.proxy.key "C">
+	<!ENTITY add.socks.option.v4 "SOCKS v4">
+	<!ENTITY add.socks.option.v5 "SOCKS v5">
+	<!ENTITY add.none.label "プロキシを使用しないサイト">
+	<!ENTITY add.none.example "例: jgillick.nettripper.com, .net.nz">
+	<!ENTITY add.none.key "N">
+	
+	<!-- ADD PROXY - STEP 1 (GET TYPE) -->
+	<!ENTITY add.type.title "プロキシの種類を選択">
+	<!ENTITY add.type.describe "プロキシの種類を選択:">
+	<!ENTITY add.type.standard "Standard">
+	<!ENTITY add.type.standard.description "一般的なプロキシ">
+	<!ENTITY add.type.anonymous "Anonymous">
+	<!ENTITY add.type.anonymous.description "匿名でのブラウズのため複数のプロキシを使う人へ">
+		
+	<!-- ABOUT -->
+	<!ENTITY about.title "について">
+	<!ENTITY about.version "バージョン">
+	
+	<!-- PREFERENCES -->
+	<!ENTITY prefs.title "Options" >
+	<!ENTITY prefs.general "一般">
+	<!ENTITY prefs.general.notify "アップデートを通知">
+	<!ENTITY prefs.general.context "コンテキストメニューを表示">
+	<!ENTITY prefs.general.toolbar "ツールバーを表示">
+	<!ENTITY prefs.general.statusbar "ステータスバーに表示">
+	<!ENTITY prefs.switch "プロキシを切り替えた際">
+	<!ENTITY prefs.switch.cookies "クッキーをクリアする">
+	<!ENTITY prefs.switch.refresh "現在のページを再読み込みする">
+	
+	<!-- UPDATE -->
+	<!ENTITY update.title "Multiproxy Switchのアップデート">
+	<!ENTITY update.message "Multiproxy Switchツールバーの新バージョンが利用可能です。今すぐインストールしますか？">
+	<!ENTITY update.dontshow "このダイアログを二度と表示しない">
+	
+	<!-- ADD ANONYMOUS PROXY -->
+	<!ENTITY add.anon.title "Anonymousプロキシを追加" >
+	<!ENTITY add.anon.imort.caption "インポート" >
+	<!ENTITY add.anon.import.describe "「一行に一つのプロキシ」という書式のファイルをインポート" >
+	<!ENTITY add.anon.import.file "ファイル" >
+	<!ENTITY add.anon.import.file.browse "参照" >
+	<!ENTITY add.anon.import.file.load "読み込み" >
+	<!ENTITY add.anon.import.url "URL" >
+	<!ENTITY add.anon.import.url.load "読み込み" >
+	<!ENTITY add.anon.import.url.auto "このURLから一日ごとに自動的にインポート" >
+	<!ENTITY add.anon.import.url.auto.note "手動で追加されたエントリを全て削除します" >
+	<!ENTITY add.anon.single.add "追加" >
+	<!ENTITY add.anon.single.add.example "例: 12.9.1.242:80" >
+	<!ENTITY add.anon.increment.title "" >
+	<!ENTITY add.anon.increment.seconds "秒毎にプロキシを切り替える" >
+	<!ENTITY add.anon.increment.title "Anonymousプロキシを追加" >
+	<!ENTITY add.anon.title "Anonymousプロキシを追加" >

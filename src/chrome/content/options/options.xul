@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://communicator/skin/" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://mproxy/locale/locale.dtd">
+
+<dialog buttons="accept"
+				id="mproxy-options-dialog"
+				ondialogaccept="return saveOptions();"
+				onload="initOptions()"
+				title="&prefs.title;"
+				xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	
+	<script type="application/x-javascript" src="chrome://mproxy/content/globals.js"></script>
+	<script type="application/x-javascript" src="chrome://mproxy/content/options/options.js"></script>
+	<script type="application/x-javascript" src="chrome://mproxy/content/proxy.js"></script>
+	
+	<groupbox style="width: 200px;">
+		<caption label="&prefs.general;"/>
+		<checkbox id="mproxy.display.toolbar" label="&prefs.general.toolbar;" checked="false" />
+		<checkbox id="mproxy.display.context" label="&prefs.general.context;" checked="false" />
+		<checkbox id="mproxy.display.statusbar" label="&prefs.general.statusbar;" checked="true" />
+		<!-- <checkbox id="mproxy.tabs.manager" label="Allow the use of different proxies in different tabs & windows." checked="true" /> -->
+	</groupbox>
+	
+	<groupbox style="width: 200px;">
+		<caption label="&prefs.switch;"/>
+		<checkbox id="mproxy.clear.cookies" label="&prefs.switch.cookies;" checked="false" />
+		<checkbox id="mproxy.reload.tab" label="&prefs.switch.refresh;" checked="true" />
+	</groupbox>
+	
+</dialog>

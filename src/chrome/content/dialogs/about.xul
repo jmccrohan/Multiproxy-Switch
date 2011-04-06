@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://communicator/skin/" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://mproxy/locale/locale.dtd">
+
+<dialog buttons="accept"
+        id="aboutmproxy"
+        ondialogaccept="return true"
+        title="&about.title;"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+    onload="mproxy_setVersion()" >
+
+  <script type="application/x-javascript" src="chrome://mproxy/content/globals.js"></script>
+  <script type="application/x-javascript" src="chrome://mproxy/content/about.js"></script> 
+  <script language="JavaScript">
+  <![CDATA[
+    function mproxy_setVersion(){
+      var oLabel = document.getElementById("mproxy-version");
+      
+      if(oLabel != null && gmproxy_Version != null){
+        oLabel.value += " "+ gmproxy_Version;
+      }
+    }
+  ]]>
+  </script>
+
+  <vbox style="width: 200px;">
+    <hbox>
+      <label value="&common.product.name;" style="font-weight: bold; margin-right: 2px;" /> 
+      <label value="v" id="mproxy-version" style="margin-left: 2px;" />
+    </hbox>
+    <label   value="Based on SwitchProxy by Jeremy Gillick" />
+    <label   value="http://multiproxyswitch.blogspot.com"
+        style="color: #0000FF; text-decoration: underline; cursor: pointer;" 
+        onclick="open_tab('http://multiproxyswitch.blogspot.com');" />
+  </vbox>
+</dialog>

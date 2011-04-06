@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://mproxy/locale/locale.dtd" >
+
+<overlay id="mproxyOverlay"
+			title="Multi-proxy Switch Overlay"
+			xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	
+	<script type="application/x-javascript" src="chrome://mproxy/content/globals.js"></script>
+	<script type="application/x-javascript" src="chrome://mproxy/content/datasource.js"></script>
+	<script type="application/x-javascript" src="chrome://mproxy/content/tabmanager.js"></script>
+	<script type="application/x-javascript" src="chrome://mproxy/content/proxy.js"></script>
+	<script language="JavaScript">
+		//Window Event Handers
+		try{window.addEventListener("load", mproxy_initProxy, true);}catch(e){}
+		//try{window.addEventListener("focus", mproxy_tab_windowFocus, true);}catch(e){}
+	</script>
+	
+	<!-- Statusbar  -->
+	<statusbar id="status-bar" class="chromeclass-status">
+	    <statusbarpanel id="mproxy-status"
+						insertbefore="statusbar-updates"
+						label="" collapsed="false"
+						context="mproxy-element-list"
+						popup="mproxy-element-list"
+						tooltiptext="&common.product.name;" />
+
+	</statusbar>
+	
+	<!-- Popups -->
+	<popupset id="ContextMenus">
+		<popup id="mproxy-element-list" position="end_before">
+			<menuitem label="&common.none;" type="checkbox" checked="true" oncommand="mproxy_queueSetProxy(this);" class="proxy-menu-item"/>				
+			<menuseparator id="mproxy-element-list-separator" />
+			<menuitem label="&common.manage.label;" accesskey="&common.manage.key;" oncommand="mproxy_openProxyManager();" />
+			<menuseparator />
+			<menuitem label="&common.preferences.label;" accesskey="&common.preferences.key;" oncommand="mproxy_openmproxyPrefs();" />
+
+			<menuitem label="&common.about.label;" accesskey="&common.about.key;" oncommand="mproxy_goTomproxyAbout()" />
+		</popup>
+	</popupset>
+	
+	<!-- Tools Menu -->
+	<menupopup id="taskPopup">
+		<menu id="mproxy-tools-menu" label="&common.product.name;"
+				accesskey="P" class="menuitem-iconic"
+				insertafter="devToolsSeparator">
+			<menupopup id="mproxy-menu-list" position="end_before">
+				<menuitem label="&common.none;" type="checkbox" checked="true" oncommand="mproxy_queueSetProxy(this);" class="proxy-menu-item"/>				
+				<menuseparator id="mproxy-menu-list-separator" />
+				<menuitem label="&common.manage.label;" accesskey="&common.manage.key;" oncommand="mproxy_openProxyManager();" />
+				<menuseparator />
+				<menuitem label="&common.preferences.label;" accesskey="&common.preferences.key;" oncommand="mproxy_openmproxyPrefs();" />
+
+				<menuitem label="&common.about.label;" accesskey="&common.about.key;" oncommand="mproxy_goTomproxyAbout()" />
+			</menupopup>
+		</menu>
+	</menupopup>
+</overlay>

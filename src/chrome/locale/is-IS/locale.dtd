@@ -1,0 +1,117 @@
+<!-- COMMON -->
+<!ENTITY common.product.name "Multiproxy Switch">
+<!ENTITY common.product.homepage "Vefsv&#230;&#240;i">
+
+<!ENTITY common.apply.label "Stilla">
+<!ENTITY common.apply.tip "Stilla valin proxy">
+<!ENTITY common.edit.label "Breyta">
+<!ENTITY common.edit.tip "Breyta v&#246;ldum proxy">
+<!ENTITY common.remove.label "Ey&#240;a">
+<!ENTITY common.remove.tip "Ey&#240;a v&#246;ldum proxy">
+<!ENTITY common.add.label "B&#230;ta vi&#240;">
+<!ENTITY common.add.tip "B&#230;ta vi&#240; n&#253;jum proxy">
+
+<!ENTITY common.next "N&#230;sta">
+<!ENTITY common.save "Vista">
+<!ENTITY common.cancel "H&#230;tta vi&#240;">
+
+<!ENTITY common.none "Enginn">
+
+<!ENTITY common.options "Valm&#246;guleikar">
+<!ENTITY common.preferences.label "Stillingar">
+<!ENTITY common.preferences.key "P">
+<!ENTITY common.updates.label "Athuga hvort til s&#233;u uppf&#230;rslur">
+<!ENTITY common.updates.key "U">
+<!ENTITY common.about.label "Um Multiproxy Switch">
+<!ENTITY common.about.key "A">
+<!ENTITY common.manage.label "Stj&#243;rna proxy-um">
+<!ENTITY common.manage.key "M">
+
+<!-- TOOLBAR -->
+<!ENTITY toolbar.name.label "Multiproxy Switch Toolbar">
+<!ENTITY toolbar.proxy.label "Proxy: " >
+<!ENTITY toolbar.name.key "S">
+<!ENTITY toolbar.status "Sta&#240;a:">
+<!ENTITY toolbar.using.none "Ekki veri&#240; a&#240; nota neinn proxy">
+
+<!-- TOOLBAR ELEMENT -->
+<!ENTITY toolelement.tip "Velja Proxy">
+
+<!-- CONTEXT MENU -->
+<!ENTITY context.label "Multiproxy Switch">
+<!ENTITY context.key "P">
+<!ENTITY context.proxies.label "Proxy-ar">
+<!ENTITY context.proxies.key "P">
+<!ENTITY context.options.label "Valm&#246;guleikar...">
+<!ENTITY context.options.key "O">
+
+<!-- DIALOGS -->
+
+	<!-- ADD/EDIT PROXY -->
+	<!ENTITY add.sharing.proxy.label "Use this proxy server for all protocols">
+	<!ENTITY add.title "Uppl&#253;singar um proxy">
+	<!ENTITY add.proxyLabel "Nafn &#225; proxy:">
+	<!ENTITY add.option.manual "Handvirkar proxy stillingar">
+	<!ENTITY add.option.auto "Sj&#225;lfkrafa proxy stillingar URL">
+	<!ENTITY add.port.label "G&#225;tt">
+	<!ENTITY add.http.proxy.label "HTTP Proxy">
+	<!ENTITY add.http.proxy.key "H">
+	<!ENTITY add.ssl.proxy.label "SSL Proxy">
+	<!ENTITY add.ssl.proxy.key "S">
+	<!ENTITY add.ftp.proxy.label "FTP Proxy">
+	<!ENTITY add.ftp.proxy.key "F">
+	<!ENTITY add.gopher.proxy.label "Gopher Proxy">
+	<!ENTITY add.gopher.proxy.key "G">
+	<!ENTITY add.socks.proxy.label "SOCKS Proxy">
+	<!ENTITY add.socks.proxy.key "C">
+	<!ENTITY add.socks.option.v4 "SOCKS v4">
+	<!ENTITY add.socks.option.v5 "SOCKS v5">
+	<!ENTITY add.none.label "Ekki nota proxy fyrir">
+	<!ENTITY add.none.example "D&#230;mi: jgillick.nettripper.com, .net.nz">
+	<!ENTITY add.none.key "N">
+	
+	<!-- ADD PROXY - STEP 1 (GET TYPE) -->
+	<!ENTITY add.type.title "Veldur proxy tegund">
+	<!ENTITY add.type.describe "Veldu stillingar tegund fyrir proxy-inn:">
+	<!ENTITY add.type.standard "Venjulegur">
+	<!ENTITY add.type.standard.description "Flestar algengar proxy tegundir">
+	<!ENTITY add.type.anonymous "Nafnlaus">
+	<!ENTITY add.type.anonymous.description "Fyrir notendur sem nota marga proxy fyrir nafnlausa vefsko&#240;un">
+		
+	<!-- ABOUT -->
+	<!ENTITY about.title "Um Multiproxy Switch">
+	<!ENTITY about.version "&#250;tg&#225;fa">
+	
+	<!-- PREFERENCES -->
+	<!ENTITY prefs.title "Options" >
+	<!ENTITY prefs.general "General">
+	<!ENTITY prefs.general.notify "L&#225;ttu mig vita um uppf&#230;rslur">
+	<!ENTITY prefs.general.context "S&#253;na Context Menu">
+	<!ENTITY prefs.general.toolbar "S&#253;na Toolbar">
+	<!ENTITY prefs.general.statusbar "Show in Status Bar" >
+	<!ENTITY prefs.switch "&#222;egar &#233;g skipti um proxy">
+	<!ENTITY prefs.switch.cookies "Hreinsa &#250;t k&#246;kur">
+	<!ENTITY prefs.switch.refresh "Endurhla&#240;a n&#250;verandi s&#237;&#240;u">
+	
+	<!-- UPDATE -->
+	<!ENTITY update.title "Uppf&#230;rsla fyrir Multiproxy Switch">
+	<!ENTITY update.message "N&#253; uppf&#230;rsla fyrir Multiproxy Switch Toolbar er til. Viltu hla&#240;a henni inn n&#250;na?">
+	<!ENTITY update.dontshow "Ekki s&#253;na &#254;essi skilabo&#240; aftur">
+	
+	<!-- ADD ANONYMOUS PROXY -->
+	<!ENTITY add.anon.title "B&#230;ta vi&#240; nafnlausum proxy-um" >
+	<!ENTITY add.anon.imort.caption "Flytja inn fr&#225;" >
+	<!ENTITY add.anon.import.describe "Flytja inn einn-proxy-per-l&#237;nu skr&#225;." >
+	<!ENTITY add.anon.import.file "Skr&#225;" >
+	<!ENTITY add.anon.import.file.browse "Sko&#240;a" >
+	<!ENTITY add.anon.import.file.load "Hla&#240;a" >
+	<!ENTITY add.anon.import.url "Url" >
+	<!ENTITY add.anon.import.url.load "Hla&#240;a" >
+	<!ENTITY add.anon.import.url.auto "Flytja daglega inn sj&#225;lfkrafa fr&#225; &#254;essu urli" >
+	<!ENTITY add.anon.import.url.auto.note "&#254;etta mun ey&#240;a &#246;llum innsettum f&#230;rslum" >
+	<!ENTITY add.anon.single.add "B&#230;ta vi&#240;" >
+	<!ENTITY add.anon.single.add.example "D&#230;mi: 12.9.1.242:80" >
+	<!ENTITY add.anon.increment.title "Breyta um proxy &#225;:" >
+	<!ENTITY add.anon.increment.seconds "sek&#250;ndna fresti" >
+	<!ENTITY add.anon.increment.title "B&#230;ta vi&#240; nafnlausum proxy-um" >
+	<!ENTITY add.anon.title "B&#230;ta vi&#240; nafnlausum proxy-um" >

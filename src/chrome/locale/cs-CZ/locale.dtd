@@ -1,0 +1,118 @@
+<!-- COMMON -->
+<!ENTITY common.product.name "Multiproxy Switch">
+<!ENTITY common.product.homepage "Domovská stránka">
+
+<!ENTITY common.apply.label "Použít">
+<!ENTITY common.apply.tip "Použít zvolený proxy server">
+<!ENTITY common.edit.label "Upravit">
+<!ENTITY common.edit.tip "Upravit zvolený proxy server">
+<!ENTITY common.remove.label "Odebrat">
+<!ENTITY common.remove.tip "Odebrat zvolený proxy server">
+<!ENTITY common.add.label "Přidat">
+<!ENTITY common.add.tip "Přidat zvolený proxy server">
+
+<!ENTITY common.next "Další">
+<!ENTITY common.save "Uložit">
+<!ENTITY common.cancel "Storno">
+
+<!ENTITY common.none "Nic">
+
+<!ENTITY common.options "Možnosti">
+<!ENTITY common.preferences.label "Možnosti">
+<!ENTITY common.preferences.key "O">
+<!ENTITY common.updates.label "Zjistit aktualizace">
+<!ENTITY common.updates.key "Z">
+<!ENTITY common.about.label "O Multiproxy Switch">
+<!ENTITY common.about.key "O">
+<!ENTITY common.manage.label "Spravovat proxy servery">
+<!ENTITY common.manage.key "R">
+
+<!-- TOOLBAR -->
+<!ENTITY toolbar.name.label "Lišta Multiproxy Switch">
+<!ENTITY toolbar.proxy.label "Proxy: " >
+<!ENTITY toolbar.name.key "S">
+<!ENTITY toolbar.status "Stav:">
+<!ENTITY toolbar.using.none "Nepoužíváte proxy server">
+
+<!-- TOOLBAR ELEMENT -->
+<!ENTITY toolelement.tip "Zvolte proxy server">
+
+<!-- CONTEXT MENU -->
+<!ENTITY context.label "Multiproxy Switch">
+<!ENTITY context.key "P">
+<!ENTITY context.proxies.label "Proxy server">
+<!ENTITY context.proxies.key "P">
+<!ENTITY context.options.label "Možnosti...">
+<!ENTITY context.options.key "O">
+
+<!-- DIALOGS -->
+
+	<!-- ADD/EDIT PROXY -->
+	<!ENTITY add.sharing.proxy.label "Use this proxy server for all protocols">
+	<!ENTITY add.title "Informace o proxy serveru">
+	<!ENTITY add.proxyLabel "Název proxy serveru:">
+	<!ENTITY add.option.manual "Ruční konfigurace proxy serverů:">
+	<!ENTITY add.option.auto "Používat skript pro automatickou konfiguraci:">
+	<!ENTITY add.port.label "Port">
+	<!ENTITY add.http.proxy.label "HTTP Proxy">
+	<!ENTITY add.http.proxy.key "H">
+	<!ENTITY add.ssl.proxy.label "SSL Proxy">
+	<!ENTITY add.ssl.proxy.key "S">
+	<!ENTITY add.ftp.proxy.label "FTP Proxy">
+	<!ENTITY add.ftp.proxy.key "F">
+	<!ENTITY add.gopher.proxy.label "Gopher Proxy">
+	<!ENTITY add.gopher.proxy.key "G">
+	<!ENTITY add.socks.proxy.label "SOCKS Host">
+	<!ENTITY add.socks.proxy.key "C">
+	<!ENTITY add.socks.option.v4 "SOCKS v4">
+	<!ENTITY add.socks.option.v5 "SOCKS v5">
+	<!ENTITY add.none.label "Nepoužívat proxy server pro">
+	<!ENTITY add.none.example "Příklad: .firma.com, .domena.cz, 192.168.1.0/24">
+	<!ENTITY add.none.key "N">
+	
+	<!-- ADD PROXY - STEP 1 (GET TYPE) -->
+	<!ENTITY add.type.title "Zvolte typ proxy serveru">
+	<!ENTITY add.type.describe "Zvolte způsob konfigurace proxy serveru:">
+	<!ENTITY add.type.standard "Běžný">
+	<!ENTITY add.type.standard.description "Nejrozšířenější druh proxy serveru">
+	<!ENTITY add.type.anonymous "Anonymní">
+	<!ENTITY add.type.anonymous.description "Pro ty, kdo kvůli anonymitě používají pro prohlížení webu více proxy serverů">
+		
+	<!-- ABOUT -->
+	<!ENTITY about.title "O Multiproxy Switch">
+	<!ENTITY about.version "verze">
+	
+	<!-- PREFERENCES -->
+	<!ENTITY prefs.title "Options" >
+	<!ENTITY prefs.title "Možnosti">
+	<!ENTITY prefs.general "Obecné">
+	<!ENTITY prefs.general.notify "Upozornit na aktualizace">
+	<!ENTITY prefs.general.context "Zobrazit místní nabídku">
+	<!ENTITY prefs.general.toolbar "Zobrazit lištu">
+	<!ENTITY prefs.general.statusbar "Zobrazit ve stavovém řádku">
+	<!ENTITY prefs.switch "Když změním proxy">
+	<!ENTITY prefs.switch.cookies "Vymazat cookies">
+	<!ENTITY prefs.switch.refresh "Obnovit aktuální stránku">
+	
+	<!-- UPDATE -->
+	<!ENTITY update.title "Aktualizace Multiproxy Switch">
+	<!ENTITY update.message "Byla nalezena aktualizace pro Lištu Multiproxy Switch. Přejete si ji nyní nainstalovat?">
+	<!ENTITY update.dontshow "Tento dialog již nezobrazovat">
+	
+	<!-- ADD ANONYMOUS PROXY -->
+	<!ENTITY add.anon.title "Přidat Anonymní Proxy" >
+	<!ENTITY add.anon.imort.caption "Importovat z" >
+	<!ENTITY add.anon.import.describe "Import ze souboru co-řádek-to-proxy." >
+	<!ENTITY add.anon.import.file "Soubor" >
+	<!ENTITY add.anon.import.file.browse "Procházet" >
+	<!ENTITY add.anon.import.file.load "Načíst" >
+	<!ENTITY add.anon.import.url "URL" >
+	<!ENTITY add.anon.import.url.load "Načíst" >
+	<!ENTITY add.anon.import.url.auto "Načítat toto URL každý den" >
+	<!ENTITY add.anon.import.url.auto.note "toto odebere jakékoliv ručně přidané záznamy" >
+	<!ENTITY add.anon.single.add "Přidat" >
+	<!ENTITY add.anon.single.add.example "Příklad: 12.9.1.242:80" >
+	<!ENTITY add.anon.increment.title "Změnit proxy každých:" >
+	<!ENTITY add.anon.increment.seconds "sekund" >
+	<!ENTITY add.anon.increment.title "Přidat Anonymní Proxy" >
+	<!ENTITY add.anon.title "Přidat Anonymní Proxy" >

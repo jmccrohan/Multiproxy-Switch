@@ -1,0 +1,117 @@
+﻿<!-- COMMON -->
+<!ENTITY common.product.name "Multiproxy Switch">
+<!ENTITY common.product.homepage "Website">
+
+<!ENTITY common.apply.label "Apply">
+<!ENTITY common.apply.tip "Apply selected proxy">
+<!ENTITY common.edit.label "Edit">
+<!ENTITY common.edit.tip "Edit selected proxy">
+<!ENTITY common.remove.label "Remove">
+<!ENTITY common.remove.tip "Remove selected proxy">
+<!ENTITY common.add.label "Add">
+<!ENTITY common.add.tip "Add new proxy">
+
+<!ENTITY common.next "Next">
+<!ENTITY common.save "Save">
+<!ENTITY common.cancel "Cancel">
+
+<!ENTITY common.none "None">
+
+<!ENTITY common.options "Options">
+<!ENTITY common.preferences.label "Preferences">
+<!ENTITY common.preferences.key "P">
+<!ENTITY common.updates.label "Check for Updates">
+<!ENTITY common.updates.key "U">
+<!ENTITY common.about.label "About">
+<!ENTITY common.about.key "A">
+<!ENTITY common.manage.label "Manage Proxies">
+<!ENTITY common.manage.key "M">
+
+<!-- TOOLBAR -->
+<!ENTITY toolbar.name.label "Multiproxy Switch Toolbar">
+<!ENTITY toolbar.proxy.label "Proxy: " >
+<!ENTITY toolbar.name.key "S">
+<!ENTITY toolbar.status "Status:">
+<!ENTITY toolbar.using.none "Using No Proxy">
+
+<!-- TOOLBAR ELEMENT -->
+<!ENTITY toolelement.tip "Select Proxy">
+
+<!-- CONTEXT MENU -->
+<!ENTITY context.label "Multiproxy Switch">
+<!ENTITY context.key "M">
+<!ENTITY context.proxies.label "Proxies">
+<!ENTITY context.proxies.key "P">
+<!ENTITY context.options.label "Options...">
+<!ENTITY context.options.key "O">
+
+<!-- DIALOGS -->
+
+<!-- ADD/EDIT PROXY -->
+<!ENTITY add.sharing.proxy.label "Use this proxy server for all protocols">
+<!ENTITY add.title "Proxy Info">
+<!ENTITY add.proxyLabel "Proxy Label:">
+<!ENTITY add.option.manual "Manual Proxy Configuration">
+<!ENTITY add.option.auto "Automatic proxy configuration URL">
+<!ENTITY add.port.label "Port">
+<!ENTITY add.http.proxy.label "HTTP Proxy">
+<!ENTITY add.http.proxy.key "H">
+<!ENTITY add.ssl.proxy.label "SSL Proxy">
+<!ENTITY add.ssl.proxy.key "S">
+<!ENTITY add.ftp.proxy.label "FTP Proxy">
+<!ENTITY add.ftp.proxy.key "F">
+<!ENTITY add.gopher.proxy.label "Gopher Proxy">
+<!ENTITY add.gopher.proxy.key "G">
+<!ENTITY add.socks.proxy.label "SOCKS Proxy">
+<!ENTITY add.socks.proxy.key "C">
+<!ENTITY add.socks.option.v4 "SOCKS v4">
+<!ENTITY add.socks.option.v5 "SOCKS v5">
+<!ENTITY add.none.label "No Proxy for">
+<!ENTITY add.none.example "Example: local.website.com, .myschool.edu">
+<!ENTITY add.none.key "N">
+
+<!-- ADD PROXY - STEP 1 (GET TYPE) -->
+<!ENTITY add.type.title "Select Proxy Type">
+<!ENTITY add.type.describe "Select a proxy configuration type:">
+<!ENTITY add.type.standard "Standard">
+<!ENTITY add.type.standard.description "Most common proxy type. Multiproxy Switch uses this type.">
+<!ENTITY add.type.anonymous "Anonymous">
+<!ENTITY add.type.anonymous.description "For people who use multiple proxies for anonymous browsing">
+	
+<!-- ABOUT -->
+<!ENTITY about.title "About">
+<!ENTITY about.version "Version">
+
+<!-- PREFERENCES -->
+<!ENTITY prefs.title "Options" >
+<!ENTITY prefs.general "General">
+<!ENTITY prefs.general.notify "Notify me of updates">
+<!ENTITY prefs.general.context "Show Context Menu">
+<!ENTITY prefs.general.toolbar "Show Toolbar">
+<!ENTITY prefs.general.statusbar "Show in Status Bar" >
+<!ENTITY prefs.switch "When I switch proxies">
+<!ENTITY prefs.switch.cookies "Clear my cookies">
+<!ENTITY prefs.switch.refresh "Reload current page">
+
+<!-- UPDATE -->
+<!ENTITY update.title "Update for Multi-proxy Switch">
+<!ENTITY update.message "A new update for the Multiproxy Switch is available. Would you like to install it now?">
+<!ENTITY update.dontshow "Don't show this dialog again">
+
+<!-- ADD ANONYMOUS PROXY -->
+<!ENTITY add.anon.title "Add Anonymous Proxies" >
+<!ENTITY add.anon.imort.caption "Import From" >
+<!ENTITY add.anon.import.describe "Import a one-proxy-per-line file." >
+<!ENTITY add.anon.import.file "File" >
+<!ENTITY add.anon.import.file.browse "Browse" >
+<!ENTITY add.anon.import.file.load "Load" >
+<!ENTITY add.anon.import.url "Url" >
+<!ENTITY add.anon.import.url.load "Load" >
+<!ENTITY add.anon.import.url.auto "Automatically import from this url daily" >
+<!ENTITY add.anon.import.url.auto.note "this will remove any manually added entries" >
+<!ENTITY add.anon.single.add "Add" >
+<!ENTITY add.anon.single.add.example "Example: 12.9.1.242:80" >
+<!ENTITY add.anon.increment.title "Change proxy every:" >
+<!ENTITY add.anon.increment.seconds "seconds(s)" >
+<!ENTITY add.anon.increment.title "Add Anonymous Proxies" >
+<!ENTITY add.anon.title "Add Anonymous Proxies" >

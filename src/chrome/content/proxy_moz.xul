@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://mproxy/locale/locale.dtd" >
+
+<overlay id="mproxyOverlay"
+			title="Multi-proxy Switch Overlay"
+			xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	
+	<script type="application/x-javascript" src="chrome://mproxy/content/globals.js"></script>
+	<script type="application/x-javascript" src="chrome://mproxy/content/datasource.js"></script>
+	<script type="application/x-javascript" src="chrome://mproxy/content/tabmanager.js"></script>
+	<script type="application/x-javascript" src="chrome://mproxy/content/proxy.js"></script>
+	<script language="JavaScript">
+		//Window Event Handers
+		try{window.addEventListener("load", mproxy_initProxy, true);}catch(e){}
+		//try{window.addEventListener("focus", mproxy_tab_windowFocus, true);}catch(e){}
+	</script>
+	
+	<!-- Toolbar -->
+	<toolbox id="navigator-toolbox" context="toolbar-context-menu">
+		<toolbar id="proxy-toolbar"
+					accesskey="&toolbar.name.key;"
+					context="toolbar-context-menu" 
+					customizable="true" 
+					iconsize="small" 
+					mode="full"
+					collapsed="false" persist="collapsed"
+					toolbarname="&toolbar.name.label;"
+					class="chromeclass">
+			
+			<hbox align="center" flex="2">
+				<label value="&toolbar.proxy.label;" style="margin-right: 0;" />
+				
+				<menulist id="proxy-list" popup="proxy-list-popup">	
+					<menupopup id="proxy-list-popup" position="after_start">
+						<menuitem value="" label="&common.none;" oncommand="mproxy_selectProxy(this)" />
+					</menupopup>
+				</menulist>						
+				
+				<toolbarbutton id="apply-button" label="&common.apply.label;" default="true" onclick="mproxy_setProxy(true)" image="chrome://mproxy/content/icons/check.png" tooltiptext="&common.apply.tip;" />
+				
+				<spacer width="25" />	
+				
+				<groupbox orient="horizontal" style="padding: 1px;">
+					<description id="status-label" value="&toolbar.status;" style="font-weight: bold;" />
+					<description id="status-text" value="&toolbar.using.none;" />
+				</groupbox>
+				
+				<spacer width="25" />	
+				<toolbarbutton id="options-list" label="&common.manage.label;" onclick="mproxy_openProxyManager();" image="chrome://mproxy/content/icons/isp.png" />				
+				<spacer width="12" />	
+				<toolbarbutton id="options-list" label="&common.preferences.label;" onclick="mproxy_openmproxyPrefs();" image="chrome://mproxy/content/icons/options.png" />
+			</hbox>
+		</toolbar>
+	</toolbox>
+	
+	<!-- Statusbar  -->
+	<statusbar id="status-bar" class="chromeclass-status">
+	    <statusbarpanel id="mproxy-status"
+						insertbefore="statusbar-updates"
+						label="" collapsed="false"
+						context="mproxy-element-list"
+						popup="mproxy-element-list"
+						tooltiptext="&common.product.name;" />
+
+	</statusbar>
+	
+	<!-- Firefox Tools Menu -->
+	<menupopup id="menu_ToolsPopup">
+		<menu id="mproxy-tools-menu" label="&common.product.name;" 
+				accesskey="P" class="menuitem-iconic"
+				insertafter="devToolsSeparator">
+			<menupopup id="mproxy-menu-list" position="end_before" onpopupshowing="mproxy_showElementList(event);">
+				<menuitem label="&common.none;" type="checkbox" checked="true" oncommand="mproxy_queueSetProxy(this);" class="proxy-menu-item"/>				
+				<menuseparator id="mproxy-menu-list-separator" />
+				<menuitem label="&common.manage.label;" accesskey="&common.manage.key;" oncommand="mproxy_openProxyManager();" />
+				<menuseparator />
+				<menuitem label="&common.preferences.label;" accesskey="&common.preferences.key;" oncommand="mproxy_openmproxyPrefs();" />
+				<menuitem label="&common.updates.label;" accesskey="&common.updates.key;" oncommand="mproxy_manualUpgradCheck()" />
+				<menuitem label="&common.about.label;" accesskey="&common.about.key;" oncommand="mproxy_goTomproxyAbout()" />
+			</menupopup>
+		</menu>
+	</menupopup>
+	
+	<!-- Context Menu -->
+	<popup id="contentAreaContextMenu">
+		<menuseparator id="mproxy-context-separator"/>
+		<menu label="&context.label;" id="mproxy-context-menu" accesskey="&context.key;">
+			<menupopup id="mproxy-context-menu-popup;" onpopupshowing="mproxy_showElementList(event);">
+				<menu label="&context.proxies.label;" accesskey="&context.proxies.key;" id="mproxy-context-proxylist">
+					<menupopup id="context-proxy-list">
+						<menuitem label="&common.none;" type="checkbox" checked="true" oncommand="mproxy_setProxy(true, true);" />
+					</menupopup>
+				</menu>
+				<menuseparator />
+				<menuitem label="&common.manage.label;" accesskey="&common.manage.key;" oncommand="mproxy_openProxyManager();" />
+				<menuseparator />
+				<menuitem label="&common.preferences.label;" accesskey="&common.preferences.key;" oncommand="mproxy_openmproxyPrefs();" />
+				<menuitem label="&common.updates.label;" accesskey="&common.updates.key;" oncommand="mproxy_manualUpgradCheck()" />
+				<menuitem label="&common.about.label;" accesskey="&common.about.key;" oncommand="mproxy_goTomproxyAbout()" />
+			</menupopup>
+		</menu>
+	</popup>
+	
+	<!-- Popups -->
+	<popupset id="mainPopupSet">
+		<popup id="mproxy-element-list" position="after_start" onpopupshowing="mproxy_showElementList(event);">
+			<menuitem label="&common.none;" type="checkbox" checked="true" oncommand="mproxy_queueSetProxy(this);" class="proxy-menu-item"/>				
+			<menuseparator id="mproxy-element-list-separator" />
+			<menuitem label="&common.manage.label;" accesskey="&common.manage.key;" oncommand="mproxy_openProxyManager();" />
+			<menuseparator />
+			<menuitem label="&common.preferences.label;" accesskey="&common.preferences.key;" oncommand="mproxy_openmproxyPrefs();" />
+			<menuitem label="&common.updates.label;" accesskey="&common.updates.key;" oncommand="mproxy_manualUpgradCheck()" />
+			<menuitem label="&common.about.label;" accesskey="&common.about.key;" oncommand="mproxy_goTomproxyAbout()" />
+		</popup>
+	</popupset>
+</overlay>
