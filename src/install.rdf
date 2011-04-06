@@ -9,6 +9,7 @@
 	 <em:description>MPS lets you switch local proxies in Firefox and Thunderbird, and do more.</em:description>
 		<em:creator>McFred</em:creator>
 		<em:contributor>Jeremy Gillick (http://www.mozmonkey.com)</em:contributor>
+		<em:contributor>Jonathan McCrohan (http://dereenigne.org)</em:contributor>
 		<em:homepageURL>http://multiproxyswitch.blogspot.com</em:homepageURL>
 		<em:optionsURL>chrome://mproxy/content/options/options.xul</em:optionsURL>
 
@@ -52,6 +53,7 @@
     <em:name>Multiproxy Switch</em:name>
 		<em:creator>McFred</em:creator>
 		<em:contributor>Jeremy Gillick (http://www.mozmonkey.com)</em:contributor>
+		<em:contributor>Jonathan McCrohan (http://dereenigne.org)</em:contributor>
 		<em:homepageURL>http://multiproxyswitch.blogspot.com</em:homepageURL>
        <em:description>MPS让你切换代理服务器更方便！</em:description>
      </Description>
@@ -63,6 +65,7 @@
     <em:name>Multiproxy Switch</em:name>
 		<em:creator>McFred</em:creator>
 		<em:contributor>Jeremy Gillick (http://www.mozmonkey.com)</em:contributor>
+		<em:contributor>Jonathan McCrohan (http://dereenigne.org)</em:contributor>
 		<em:homepageURL>http://multiproxyswitch.blogspot.com</em:homepageURL>
        <em:description>MPS让你切换代理服务器更方便！</em:description>
      </Description>
@@ -74,6 +77,7 @@
     <em:name>Multiproxy Switch</em:name>
 		<em:creator>McFred</em:creator>
 		<em:contributor>Jeremy Gillick (http://www.mozmonkey.com)</em:contributor>
+		<em:contributor>Jonathan McCrohan (http://dereenigne.org)</em:contributor>
 		<em:homepageURL>http://multiproxyswitch.blogspot.com</em:homepageURL>
        <em:description>MPS permite intercambiar proxies locales en Firefox y Thunderbird, y mucho más.</em:description>
      </Description>
