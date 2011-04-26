@@ -5,12 +5,12 @@
 
    <em:id>{BB080420-8088-F650-3D47-13799CCD6159}</em:id>
    <em:name>Multiproxy Switch</em:name>
-   <em:version>1.33</em:version>
+   <em:version>1.34</em:version>
 	 <em:description>MPS lets you switch local proxies in Firefox and Thunderbird, and do more.</em:description>
 		<em:creator>McFred</em:creator>
 		<em:contributor>Jeremy Gillick (http://www.mozmonkey.com)</em:contributor>
 		<em:contributor>Jonathan McCrohan (http://dereenigne.org)</em:contributor>
-		<em:homepageURL>http://multiproxyswitch.blogspot.com</em:homepageURL>
+		<em:homepageURL>https://github.com/jmccrohan/Multiproxy-Switch</em:homepageURL>
 		<em:optionsURL>chrome://mproxy/content/options/options.xul</em:optionsURL>
 
    <!-- Firefox -->
@@ -54,7 +54,7 @@
 		<em:creator>McFred</em:creator>
 		<em:contributor>Jeremy Gillick (http://www.mozmonkey.com)</em:contributor>
 		<em:contributor>Jonathan McCrohan (http://dereenigne.org)</em:contributor>
-		<em:homepageURL>http://multiproxyswitch.blogspot.com</em:homepageURL>
+		<em:homepageURL>https://github.com/jmccrohan/Multiproxy-Switch</em:homepageURL>
        <em:description>MPS让你切换代理服务器更方便！</em:description>
      </Description>
    </em:localized>
@@ -66,7 +66,7 @@
 		<em:creator>McFred</em:creator>
 		<em:contributor>Jeremy Gillick (http://www.mozmonkey.com)</em:contributor>
 		<em:contributor>Jonathan McCrohan (http://dereenigne.org)</em:contributor>
-		<em:homepageURL>http://multiproxyswitch.blogspot.com</em:homepageURL>
+		<em:homepageURL>https://github.com/jmccrohan/Multiproxy-Switch</em:homepageURL>
        <em:description>MPS让你切换代理服务器更方便！</em:description>
      </Description>
    </em:localized>
@@ -78,7 +78,7 @@
 		<em:creator>McFred</em:creator>
 		<em:contributor>Jeremy Gillick (http://www.mozmonkey.com)</em:contributor>
 		<em:contributor>Jonathan McCrohan (http://dereenigne.org)</em:contributor>
-		<em:homepageURL>http://multiproxyswitch.blogspot.com</em:homepageURL>
+		<em:homepageURL>https://github.com/jmccrohan/Multiproxy-Switch</em:homepageURL>
        <em:description>MPS permite intercambiar proxies locales en Firefox y Thunderbird, y mucho más.</em:description>
      </Description>
    </em:localized>
