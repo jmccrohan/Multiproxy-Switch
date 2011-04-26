@@ -9,7 +9,7 @@
   
   <RDF:Description about="urn:mozilla:package:mproxy"
                  chrome:author="Based on SwitchProxy by Jeremy Gillick"
-                 chrome:authorURL="http://mcfreds.blogspot.com/"
+                 chrome:authorURL="https://github.com/jmccrohan/Multiproxy-Switch"
                  chrome:description="Multiproxy Switch lets you set local proxy in Firefox and Thunderbird, and do more."
                  chrome:displayName="Multiproxy Switch"
                  chrome:extension="true"

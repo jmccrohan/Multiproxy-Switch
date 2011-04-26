@@ -31,8 +31,8 @@
       <label value="v" id="mproxy-version" style="margin-left: 2px;" />
     </hbox>
     <label   value="Based on SwitchProxy by Jeremy Gillick" />
-    <label   value="http://multiproxyswitch.blogspot.com"
+    <label   value="https://github.com/jmccrohan/Multiproxy-Switch"
         style="color: #0000FF; text-decoration: underline; cursor: pointer;" 
-        onclick="open_tab('http://multiproxyswitch.blogspot.com');" />
+        onclick="open_tab('https://github.com/jmccrohan/Multiproxy-Switch');" />
   </vbox>
 </dialog>

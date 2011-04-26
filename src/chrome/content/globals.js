@@ -6,8 +6,8 @@ const gSProxyRdfNodeId			= gSProxyRdfNodeUriRoot+ "#id";
 const gSProxyRdfNodeName		= gSProxyRdfNodeUriRoot+ "#name";
 const gSProxyRdfNodeProxy		= gSProxyRdfNodeUriRoot+ "#proxy";
 
-const gmproxy_Version	= "1.33";
-const gmproxy_DownloadSite	= "http://switchproxy.googlepages.com";
+const gmproxy_Version	= "1.34";
+const gmproxy_DownloadSite	= "https://github.com/jmccrohan/Multiproxy-Switch";
 
 var	gSProxyStrBundle = null;
 
