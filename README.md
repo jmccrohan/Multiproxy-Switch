@@ -12,10 +12,10 @@ Change the .zip file to .xpi, and add manually to Firefox
 
 Requirements:
 ----------------------
-Firefox 2.* - 4.0.*
+Firefox 2.* - 6.*
+or
+Thunderbird 1.* - 6.*
 
 TODO:
 ----------------------
-Package as Firefox add-on.
-
 Enable DNS remote lookup on a per proxy basis (network.proxy.socks_remote_dns).
