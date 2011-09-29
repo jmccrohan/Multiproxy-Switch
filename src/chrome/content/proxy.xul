@@ -112,7 +112,7 @@
 	
 	<!-- Popups -->
 	<popupset id="mainPopupSet">
-		<popup id="mproxy-element-list" position="after_start" onpopupshowing="mproxy_showElementList(event);">
+		<popup id="mproxy-element-list" position="after_start" onpopupshowing="mproxy_showElementList(event);" style="-moz-appearance:menupopup">
 			<menuitem label="&common.none;" type="checkbox" checked="true" oncommand="mproxy_queueSetProxy(this);" class="proxy-menu-item"/>				
 			<menuseparator id="mproxy-element-list-separator" />
 			<menuitem label="&common.manage.label;" accesskey="&common.manage.key;" oncommand="mproxy_openProxyManager();" />
