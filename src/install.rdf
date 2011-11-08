@@ -5,20 +5,21 @@
 
    <em:id>{BB080420-8088-F650-3D47-13799CCD6159}</em:id>
    <em:name>Multiproxy Switch</em:name>
-   <em:version>1.37</em:version>
-	 <em:description>MPS lets you switch local proxies in Firefox and Thunderbird, and do more.</em:description>
-		<em:creator>McFred</em:creator>
-		<em:contributor>Jeremy Gillick (http://www.mozmonkey.com)</em:contributor>
-		<em:contributor>Jonathan McCrohan (http://dereenigne.org)</em:contributor>
-		<em:homepageURL>https://github.com/jmccrohan/Multiproxy-Switch</em:homepageURL>
-		<em:optionsURL>chrome://mproxy/content/options/options.xul</em:optionsURL>
+   <em:version>1.38</em:version>
+   <em:description>MPS lets you switch local proxies in Firefox and Thunderbird, and do more.</em:description>
+   <em:creator>McFred</em:creator>
+   <em:contributor>Jeremy Gillick (http://www.mozmonkey.com)</em:contributor>
+   <em:contributor>Jonathan McCrohan (http://dereenigne.org)</em:contributor>
+   <em:homepageURL>https://github.com/jmccrohan/Multiproxy-Switch</em:homepageURL>
+   <em:optionsURL>chrome://mproxy/content/options/options.xul</em:optionsURL>
+   <em:updateURL>https://github.com/downloads/jmccrohan/Multiproxy-Switch/update.rdf</em:updateURL>
 
    <!-- Firefox -->
    <em:targetApplication>
      <Description>
        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
        <em:minVersion>1.5</em:minVersion>
-       <em:maxVersion>7.*</em:maxVersion>
+       <em:maxVersion>8.*</em:maxVersion>
      </Description>
    </em:targetApplication>
    <!-- Thunderbird -->
@@ -26,44 +27,8 @@
      <Description>
 	<em:id>{3550f703-e582-4d05-9a08-453d09bdfdc6}</em:id>
 	<em:minVersion>1.0</em:minVersion>
-	<em:maxVersion>7.*</em:maxVersion>
+	<em:maxVersion>8.*</em:maxVersion>
      </Description>
    </em:targetApplication>
-   <em:localized>
-     <Description>
-       <em:locale>zh-CN</em:locale>
-    <em:name>Multiproxy Switch</em:name>
-		<em:creator>McFred</em:creator>
-		<em:contributor>Jeremy Gillick (http://www.mozmonkey.com)</em:contributor>
-		<em:contributor>Jonathan McCrohan (http://dereenigne.org)</em:contributor>
-		<em:homepageURL>https://github.com/jmccrohan/Multiproxy-Switch</em:homepageURL>
-       <em:description>MPS让你切换代理服务器更方便！</em:description>
-     </Description>
-   </em:localized>
-
-   <em:localized>
-     <Description>
-       <em:locale>zh-TW</em:locale>
-    <em:name>Multiproxy Switch</em:name>
-		<em:creator>McFred</em:creator>
-		<em:contributor>Jeremy Gillick (http://www.mozmonkey.com)</em:contributor>
-		<em:contributor>Jonathan McCrohan (http://dereenigne.org)</em:contributor>
-		<em:homepageURL>https://github.com/jmccrohan/Multiproxy-Switch</em:homepageURL>
-       <em:description>MPS让你切换代理服务器更方便！</em:description>
-     </Description>
-   </em:localized>
-
-      <em:localized>
-     <Description>
-       <em:locale>es-ES</em:locale>
-    <em:name>Multiproxy Switch</em:name>
-		<em:creator>McFred</em:creator>
-		<em:contributor>Jeremy Gillick (http://www.mozmonkey.com)</em:contributor>
-		<em:contributor>Jonathan McCrohan (http://dereenigne.org)</em:contributor>
-		<em:homepageURL>https://github.com/jmccrohan/Multiproxy-Switch</em:homepageURL>
-       <em:description>MPS permite intercambiar proxies locales en Firefox y Thunderbird, y mucho más.</em:description>
-     </Description>
-   </em:localized>
-   
  </Description>
 </RDF>
