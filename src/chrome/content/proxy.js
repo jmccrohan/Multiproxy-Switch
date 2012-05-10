@@ -65,9 +65,11 @@ function mproxy_initProxy(event){
 		//Populate Proxy List
 		mproxy_populateList();
 		
-		//Set Last Proxy Selected
-		if(gSwitchP_List != null)
-			gSwitchP_LastItem = gSwitchP_List.selectedItem;
+	    	//Set Last Proxy Selected
+	    	if (gSwitchP_List != null) {
+	        	gSwitchP_List.selectedItem.value = gSwitchP_Prefs.getCharPref("mproxy.proxy.current");
+	        	gSwitchP_LastItem = gSwitchP_List.selectedItem;
+	    	}
 		
 		//Add Preferences Listener
 		var oProxyObserver = {
@@ -96,7 +98,7 @@ oPrefBranch.addObserver("mproxy.proxy.rdf.lastupdate", oProxyObserver, false);
 		
 		// Start Anon Rotation
 		//setTimeout("mproxy_anon_nextProxy()", 1000);
-		
+		mproxy_setProxy(true);
 		gSwitchP_Loaded = true;
 	}
 }
