@@ -12,11 +12,13 @@ Change the .zip file to .xpi, and add manually to Firefox
 
 Requirements:
 ----------------------
-Firefox 2.* - 9.* 
+Firefox 2.* - 12+
 
 or
 
-Thunderbird 1.* - 9.*
+Thunderbird 1.* - 12+
+
+Firefox/Thunderbird 10+ mark add-ons as compatible by default.
 
 TODO:
 ----------------------
