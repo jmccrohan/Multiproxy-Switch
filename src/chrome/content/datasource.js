@@ -39,6 +39,14 @@ function mproxy_ds_initDataSource(){
 	}catch(err){ throw "(mproxy_ds_initDataSource)\n" + err; }
 }
 
+//Save RDF
+function mproxy_ds_save(){
+	mproxy_ds_initDataSource();
+	try{
+		gSProxyDs.QueryInterface(Components.interfaces.nsIRDFRemoteDataSource).Flush();
+	}catch(err){ throw "(mproxy_ds_save)\n" + err; }
+}
+
 //Add RDF Observer
 function mproxy_ds_addObserver(oObserver){
 	mproxy_ds_initDataSource();

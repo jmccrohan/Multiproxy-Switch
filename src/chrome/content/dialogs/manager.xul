@@ -26,7 +26,7 @@
 	</script>
 			
 	<hbox align="top" flex="1" style="overflow: auto;">
-		<listbox id="manage-proxy-list" flex="2" rows="10"></listbox>
+		<listbox id="manage-proxy-list" flex="1" style="height:100%"></listbox>
 		<vbox>
 			<button id="new-button" label=" &common.add.label;" oncommand="mproxy_editProxyDialog(true)" image="chrome://mproxy/content/icons/new.png" />
 			<button id="edit-button" label=" &common.edit.label;" oncommand="mproxy_editProxyDialog(false)" image="chrome://mproxy/content/icons/pencil.png" />

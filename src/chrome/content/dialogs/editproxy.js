@@ -153,6 +153,7 @@ function mproxy_saveProxy(){
     * Finish
     */      
       opener.mproxy_populateList();
+      mproxy_ds_save();
 
 	  if(gIsEdit){
         

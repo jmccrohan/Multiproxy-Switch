@@ -746,6 +746,7 @@ function mproxy_removeProxy(){
 		
 		//Update List
 			mproxy_populateList();
+			mproxy_ds_save();
 			setTimeout("mproxy_setProxy();", 300);
 	}
 	catch(err){
